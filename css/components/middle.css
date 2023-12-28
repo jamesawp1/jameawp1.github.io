@@ -1,0 +1,29 @@
+.middle {
+    background-color: #079188;
+    height: 730px;
+    text-align: center;
+    border-bottom: 10px solid #060925;
+    padding-top: 50px;
+    color: #FFF;
+    font-family: "Press Start 2P", sans-serif;
+}
+
+.middle .second-title {
+    font-size: 40px;
+}
+
+.middle .skill-item {
+    display: inline-block;
+    flex-direction: column;
+}
+
+.middle .text-s {
+
+}
+
+.middle .bar {
+    background-color: #FFF;
+    border: 5px solid #000;
+    width: 367.05px;
+    height: 40px;
+}
