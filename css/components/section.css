@@ -1,35 +1,36 @@
-.middle {
+.section {
     background-color: #079188;
-    height: 730px;
-    border-bottom: 10px solid #060925;
     padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #060925;
+    height: 730px;
     color: #FFF;
     font-family: "Press Start 2P", sans-serif;
 }
 
-.middle .second-title {
+.section .second-title {
     font-size: 40px;
     text-align: center;
     padding-bottom: 60px;
 }
 
-.middle .skill-item {
+.section .skill-item {
     display: flex;
     justify-content: space-around;
 }
 
-.middle .text-s {
+.section .text-s {
 
 }
 
-.middle .bar {
+.section .bar {
     background-color: #FFF;
     border: 5px solid #000;
     width: 367.05px;
     height: 40px;
 }
 
-.middle .bar1 {
+.section .bar1 {
     background-color: #079188;
     width: 240.88px;
     height: 30px;
