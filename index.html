@@ -12,16 +12,18 @@
         <link rel="stylesheet" href="css/components/header.css">
         <link rel="stylesheet" href="css/components/action.css">
         <link rel="stylesheet" href="css/components/button.css">
-        <link rel="stylesheet" href="css/components/title.css">
+        <link rel="stylesheet" href="css/components/main-title.css">
         <link rel="stylesheet" href="css/components/subtitle.css">
         <link rel="stylesheet" href="css/components/box.css">
         <link rel="stylesheet" href="css/components/banner.css">
         <link rel="stylesheet" href="css/components/section.css">
+        <link rel="stylesheet" href="css/components/skill-tec.css">
+        <link rel="stylesheet" href="css/components/progress-bar.css">
     </head>
 
     <body>
         <header class="header">
-            <img id="logo" src="assets/img/logojms.png" alt="Logo do JMS"> <!--tags como "img não precisam de fechamento e, nesse caso, reforça-se, pois é uma imagem que não deve conter nada além dela msm-->
+            <img id="logo_jms" src="assets/img/logojms.png" alt="Logo do JMS"> <!--tags como "img não precisam de fechamento e, nesse caso, reforça-se, pois é uma imagem que não deve conter nada além dela msm-->
 <!--ideia logo: colcoar nome ou sigla com fonte press start, sombra etc-->
             <nav> <!--navigation-->
                 <a class="action" href="">Habilidades</a> <!--anchor-->
@@ -35,7 +37,7 @@
         <section class="banner">
             <div class="wrapper">
                 <div class="box">
-                    <h1 class="title">James Jr.</h1>
+                    <h1 class="main-title">James Jr.</h1>
                     <h2 class="subtitle">Desenvolvedor Front-end</h2>
                 </div>
 
@@ -47,41 +49,17 @@
         </section>
 
         <section class="section">
-            <div>
-                <h2 class="title -second">Habilidades</h2>
-            </div>
+            <h2 class="main-title -second">Habilidades</h2>
 
-            <div class="skill-item">
-                <h3 class="text-s">HTML</h3>
-                <img id="logo-html" src="assets/img/logo-html.png">
-                <div class="bar">
-                    <p> </p>
+            <article class="skill-tec">
+                <img class="icon" src="assets/img/ico_html5.png" alt="Logo do HTML5 em pixel art">
+                <div class="right">
+                    <h3 class="title">HTML</h3>
+                    <progress class="progressbar" max="100" value="70">
+                            70%
+                    </progress>
                 </div>
-            </div>
-            <div class="skill-item">
-                <h3 class="text-s">HTML</h3>
-                <img id="logo-html" src="assets/img/logo-html.png">
-                <div class="bar">
-                    <p> </p>
-                </div>
-            </div>
-            <div class="skill-item">
-                <h3 class="text-s">HTML</h3>
-                <img id="logo-html" src="assets/img/logo-html.png">
-                <div class="bar">
-                    <p> </p>
-                </div>
-            </div>
-            <div class="skill-item">
-                <h3 class="text-s">HTML</h3>
-                <img id="logo-html" src="assets/img/logo-html.png">
-                <div class="bar">
-                    <p> </p>
-                    <div class="bar1">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
+            </article>
         </section>
     </body>
 </html>

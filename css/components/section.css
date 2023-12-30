@@ -13,25 +13,3 @@
     text-align: center;
     padding-bottom: 60px;
 }
-
-.section .skill-item {
-    display: flex;
-    justify-content: space-around;
-}
-
-.section .text-s {
-
-}
-
-.section .bar {
-    background-color: #FFF;
-    border: 5px solid #000;
-    width: 367.05px;
-    height: 40px;
-}
-
-.section .bar1 {
-    background-color: #079188;
-    width: 240.88px;
-    height: 30px;
-}
