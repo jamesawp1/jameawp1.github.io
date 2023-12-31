@@ -8,3 +8,11 @@
 .section .main-title.-other {
     padding-bottom: 60px;
 }
+
+.section.-bgBlack {
+    background-color: #000;
+}
+
+.section.-bdColor {
+    border-color: #079188;
+}
